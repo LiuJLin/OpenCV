@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project( avi )
-find_package( OpenCV REQUIRED )
-add_executable( avi avi.cpp )
-target_link_libraries( avi ${OpenCV_LIBS} )
