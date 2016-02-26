@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( colorReduce )
+find_package( OpenCV REQUIRED )
+add_executable( colorReduce colorReduce.cpp )
+target_link_libraries( colorReduce ${OpenCV_LIBS} )

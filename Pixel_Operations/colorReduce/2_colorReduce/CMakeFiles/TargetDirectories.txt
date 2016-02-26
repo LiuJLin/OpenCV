@@ -1,0 +1,1 @@
+/home/ljl/ljl_OpenCV/Pixel_Operations/colorReduce/2_colorReduce/CMakeFiles/colorReduce.dir

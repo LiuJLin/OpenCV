@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( videoprocessing )
+find_package( OpenCV REQUIRED )
+add_executable( videoprocessing videoprocessing.cpp )
+target_link_libraries( videoprocessing ${OpenCV_LIBS} )

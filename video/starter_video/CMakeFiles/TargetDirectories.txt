@@ -1,0 +1,1 @@
+/home/ljl/ljl_OpenCV/video/starter_video/CMakeFiles/starter_video.dir
