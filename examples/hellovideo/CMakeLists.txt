@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( hellovideo )
+find_package( OpenCV REQUIRED )
+add_executable( hellovideo hellovideo.cpp )
+target_link_libraries( hellovideo ${OpenCV_LIBS} )
