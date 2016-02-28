@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( incorporation )
+find_package( OpenCV REQUIRED )
+add_executable( incorporation incorporation.cpp )
+target_link_libraries( incorporation ${OpenCV_LIBS} )
